@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BEC0D4F825D8EF1400B10987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0D4F725D8EF1400B10987 /* AppDelegate.swift */; };
 		BEC0D4FA25D8EF1400B10987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0D4F925D8EF1400B10987 /* SceneDelegate.swift */; };
-		BEC0D4FC25D8EF1400B10987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0D4FB25D8EF1400B10987 /* ViewController.swift */; };
+		BEC0D4FC25D8EF1400B10987 /* ColorMixerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0D4FB25D8EF1400B10987 /* ColorMixerViewController.swift */; };
 		BEC0D4FF25D8EF1400B10987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC0D4FD25D8EF1400B10987 /* Main.storyboard */; };
 		BEC0D50125D8EF1500B10987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC0D50025D8EF1500B10987 /* Assets.xcassets */; };
 		BEC0D50425D8EF1500B10987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC0D50225D8EF1500B10987 /* LaunchScreen.storyboard */; };
+		BEC0D50F25D8FFE100B10987 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0D50E25D8FFE100B10987 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEC0D4F425D8EF1400B10987 /* ColorMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC0D4F725D8EF1400B10987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC0D4F925D8EF1400B10987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEC0D4FB25D8EF1400B10987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC0D4FB25D8EF1400B10987 /* ColorMixerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixerViewController.swift; sourceTree = "<group>"; };
 		BEC0D4FE25D8EF1400B10987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC0D50025D8EF1500B10987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC0D50325D8EF1500B10987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC0D50525D8EF1500B10987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC0D50E25D8FFE100B10987 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				BEC0D4F725D8EF1400B10987 /* AppDelegate.swift */,
 				BEC0D4F925D8EF1400B10987 /* SceneDelegate.swift */,
-				BEC0D4FB25D8EF1400B10987 /* ViewController.swift */,
+				BEC0D4FB25D8EF1400B10987 /* ColorMixerViewController.swift */,
 				BEC0D4FD25D8EF1400B10987 /* Main.storyboard */,
 				BEC0D50025D8EF1500B10987 /* Assets.xcassets */,
 				BEC0D50225D8EF1500B10987 /* LaunchScreen.storyboard */,
 				BEC0D50525D8EF1500B10987 /* Info.plist */,
+				BEC0D50E25D8FFE100B10987 /* Color.swift */,
 			);
 			path = ColorMixer;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC0D4FC25D8EF1400B10987 /* ViewController.swift in Sources */,
+				BEC0D4FC25D8EF1400B10987 /* ColorMixerViewController.swift in Sources */,
+				BEC0D50F25D8FFE100B10987 /* Color.swift in Sources */,
 				BEC0D4F825D8EF1400B10987 /* AppDelegate.swift in Sources */,
 				BEC0D4FA25D8EF1400B10987 /* SceneDelegate.swift in Sources */,
 			);
